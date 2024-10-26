@@ -83,11 +83,16 @@ Fetches Solat times for the entire year.
 Use `LocationCode` to access supported location codes in Malaysia. Example use: `LocationCode.SelangorCentral`. The full list of the codes are:
 Here’s the table with your requested information in markdown format:
 
-| Region Name                  | Code                           |
+### Selangor
+| Code                 | Area covered                           |
 |------------------------------|--------------------------------|
 | SelangorCentral              | Gombak, Petaling, Sepang, Hulu Langat, Hulu Selangor, S.Alam |
 | SelangorNorthWest            | Kuala Selangor, Sabak Bernam  |
 | SelangorSouthWest            | Klang, Kuala Langat           |
+
+### Wilayah Persekutuan
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | WPKualaLumpur                | Kuala Lumpur, Putrajaya       |
 | WPLabuan                     | Labuan                        |
 | JohorIslandZone              | Pulau Aur dan Pulau Pemanggil |
