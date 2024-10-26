@@ -201,3 +201,7 @@ Here’s the table with your requested information in markdown format:
 ## License
 
 MIT License
+
+## Credits
+
+Credits to https://github.com/acfatah/jakim-esolat-api for reference.
