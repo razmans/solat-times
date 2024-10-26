@@ -214,7 +214,11 @@ export interface SolatData {
   prayerTime: PrayerTimes[];
 }
 
-interface PrayerTimes {
+/**
+ * @module interface for PrayerTimes
+ * @interface PrayerTimes
+ */
+export interface PrayerTimes {
   hijri: string;
   date: string;
   day: string;
