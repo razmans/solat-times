@@ -95,10 +95,18 @@ Here’s the table with your requested information in markdown format:
 |------------------------------|--------------------------------|
 | WPKualaLumpur                | Kuala Lumpur, Putrajaya       |
 | WPLabuan                     | Labuan                        |
+
+### Johor
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | JohorIslandZone              | Pulau Aur dan Pulau Pemanggil |
 | JohorEastCoast               | Johor Bahru, Kota Tinggi, Mersing |
 | JohorCentral                 | Kluang, Pontian               |
 | JohorWestCoast               | Batu Pahat, Muar, Segamat, Gemas Johor |
+
+### Kedah
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | KedahNorth                   | Kota Setar, Kubang Pasu, Pokok Sena (Daerah Kecil) |
 | KedahCentral                 | Kuala Muda, Yan, Pendang      |
 | KedahNortheast               | Padang Terap, Sik             |
@@ -108,17 +116,41 @@ Here’s the table with your requested information in markdown format:
 | KedahMountainPeak            | Puncak Gunung Jerai           |
 | KelantanCentralNorth         | Bachok, Kota Bharu, Machang, Pasir Mas, Pasir Puteh, Tanah Merah, Tumpat, Kuala Krai, Mukim Chiku |
 | KelantanSouthernHighlands    | Gua Musang (Daerah Galas Dan Bertam), Jeli |
+
+### Melaka
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | Melaka                       | Seluruh Negeri Melaka         |
+
+### Negeri Sembilan
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | NegeriSembilanEast           | Tampin, Jempol                |
 | NegeriSembilanCentral        | Jelebu, Kuala Pilah, Port Dickson, Rembau, Seremban |
+
+### Pahang
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | PahangIslandZone             | Pulau Tioman                  |
 | PahangEastCoast              | Kuantan, Pekan, Rompin, Muadzam Shah |
 | PahangCentral                | Jerantut, Temerloh, Maran, Bera, Chenor, Jengka |
 | PahangWestern                | Bentong, Lipis, Raub          |
 | PahangHighlandGateway        | Genting Sempah, Janda Baik, Bukit Tinggi |
 | PahangHighlandRegion         | Cameron Highlands, Genting Highlands, Bukit Fraser |
+
+### Perlis
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | Perlis                       | Kangar, Padang Besar, Arau    |
+
+### Pulau Pinang
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | Penang                       | Seluruh Negeri Pulau Pinang   |
+
+### Perak
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | PerakSouthern                | Tapah, Slim River, Tanjung Malim |
 | PerakCentral                 | Kuala Kangsar, Sg. Siput (Daerah Kecil), Ipoh, Batu Gajah, Kampar |
 | PerakNortheast               | Lenggong, Pengkalan Hulu, Grik |
@@ -126,6 +158,10 @@ Here’s the table with your requested information in markdown format:
 | PerakWestCoast               | Kg Gajah, Teluk Intan, Bagan Datuk, Seri Iskandar, Beruas, Parit, Lumut, Sitiawan, Pulau Pangkor |
 | PerakNorthwest               | Selama, Taiping, Bagan Serai, Parit Buntar |
 | PerakLarutHighlands          | Bukit Larut                   |
+
+### Sabah
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | SabahEastCoast               | Bahagian Sandakan (Timur), Bukit Garam, Semawang, Temanggong, Tambisan, Bandar Sandakan, Sukau |
 | SabahCentralEast             | Beluran, Telupid, Pinangah, Terusan, Kuamut, Bahagian Sandakan (Barat) |
 | SabahSoutheastCoast          | Lahad Datu, Silabukan, Kunak, Sahabat, Semporna, Tungku, Bahagian Tawau (Timur) |
@@ -136,6 +172,10 @@ Here’s the table with your requested information in markdown format:
 | SabahInteriorHighlands       | Pensiangan, Keningau, Tambunan, Nabawan, Bahagian Pendalaman (Atas) |
 | SabahInteriorLowlands        | Beaufort, Kuala Penyu, Sipitang, Tenom, Long Pa Sia, Membakut, Weston, Bahagian Pendalaman (Bawah) |
 | SarawakNorthern              | Limbang, Lawas, Sundar, Trusan |
+
+### Sarawak
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | SarawakNorthwest             | Miri, Niah, Bekenu, Sibuti, Marudi |
 | SarawakCentralNorth          | Pandan, Belaga, Suai, Tatau, Sebauh, Bintulu |
 | SarawakCentral               | Sibu, Mukah, Dalat, Song, Igan, Oya, Balingian, Kanowit, Kapit |
@@ -144,96 +184,14 @@ Here’s the table with your requested information in markdown format:
 | SarawakSouthwest             | Serian, Simunjan, Samarahan, Sebuyau, Meludam |
 | SarawakSouthern              | Kuching, Bau, Lundu, Sematan |
 | SarawakSpecialZone           | Zon Khas (Kampung Patarikan) |
+
+### Terengganu
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | TerengganuCentral            | Kuala Terengganu, Marang, Kuala Nerus |
 | TerengganuNorthCoast         | Besut, Setiu                 |
 | TerengganuInland             | Hulu Terengganu              |
 | TerengganuSouthCoast         | Dungun, Kemaman             |
-
-<!-- ### Selangor
-SelangorCentral - Gombak, Petaling, Sepang, Hulu Langat, Hulu Selangor, S.Alam
-SelangorNorthWest - Kuala Selangor, Sabak Bernam
-SelangorSouthWest - Klang, Kuala Langat
-
-### Wilayah Persekutuan
-WPKualaLumpur - Kuala Lumpur, Putrajaya
-WPLabuan - Labuan
-
-### Johor
-JohorIslandZone - Pulau Aur dan Pulau Pemanggil
-JohorEastCoast - Johor Bahru, Kota Tinggi, Mersing
-JohorCentral - Kluang, Pontian
-JohorWestCoast - Batu Pahat, Muar, Segamat, Gemas Johor
-
-### Kedah
-KedahNorth - Kota Setar, Kubang Pasu, Pokok Sena (Daerah Kecil)
-KedahCentral - Kuala Muda, Yan, Pendang
-KedahNortheast - Padang Terap, Sik
-KedahSoutheast - Baling
-KedahSouthernBorder - Bandar Baharu, Kulim
-KedahIslandZone - Langkawi
-KedahMountainPeak - Puncak Gunung Jerai
-
-### Kelantan
-KelantanCentralNorth - Bachok, Kota Bharu, Machang, Pasir Mas, Pasir Puteh, Tanah Merah, Tumpat, Kuala Krai, Mukim Chiku
-KelantanSouthernHighlands - Gua Musang (Daerah Galas Dan Bertam), Jeli
-
-### Melaka
-Melaka - Seluruh Negeri Melaka
-
-### Negeri Sembilan
-NegeriSembilanEast - Tampin, Jempol
-NegeriSembilanCentral - Jelebu, Kuala Pilah, Port Dickson, Rembau, Seremban
-
-### Pahang
-PahangIslandZone - Pulau Tioman
-PahangEastCoast - Kuantan, Pekan, Rompin, Muadzam Shah
-PahangCentral - Jerantut, Temerloh, Maran, Bera, Chenor, Jengka
-PahangWestern - Bentong, Lipis, Raub
-PahangHighlandGateway - Genting Sempah, Janda Baik, Bukit Tinggi
-PahangHighlandRegion - Cameron Highlands, Genting Higlands, Bukit Fraser
-
-### Perlis
-Perlis - Kangar, Padang Besar, Arau
-
-### Pulau Pinang
-Penang - Seluruh Negeri Pulau Pinang
-
-### Perak
-PerakSouthern - Tapah, Slim River, Tanjung Malim
-PerakCentral - Kuala Kangsar, Sg. Siput (Daerah Kecil), Ipoh, Batu Gajah, Kampar
-PerakNortheast - Lenggong, Pengkalan Hulu, Grik
-PerakHighlands - Temengor, Belum
-PerakWestCoast - Kg Gajah, Teluk Intan, Bagan Datuk, Seri Iskandar, Beruas, Parit, Lumut, Sitiawan, Pulau Pangkor
-PerakNorthwest - Selama, Taiping, Bagan Serai, Parit Buntar
-PerakLarutHighlands - Bukit Larut
-
-### Sabah
-SabahEastCoast - Bahagian Sandakan (Timur), Bukit Garam, Semawang, Temanggong, Tambisan, Bandar Sandakan, Sukau
-SabahCentralEast - Beluran, Telupid, Pinangah, Terusan, Kuamut, Bahagian Sandakan (Barat)
-SabahSoutheastCoast - Lahad Datu, Silabukan, Kunak, Sahabat, Semporna, Tungku, Bahagian Tawau (Timur)
-SabahSouthwestCoast - Bandar Tawau, Balong, Merotai, Kalabakan, Bahagian Tawau (Barat)
-SabahNorthernTip - Kudat, Kota Marudu, Pitas, Pulau Banggi, Bahagian Kudat
-SabahMountainRegion - Gunung Kinabalu
-SabahWestCoast - Kota Kinabalu, Ranau, Kota Belud, Tuaran, Penampang, Papar, Putatan, Bahagian Pantai Barat
-SabahInteriorHighlands - Pensiangan, Keningau, Tambunan, Nabawan, Bahagian Pendalaman (Atas)
-SabahInteriorLowlands - Beaufort, Kuala Penyu, Sipitang, Tenom, Long Pa Sia, Membakut, Weston, Bahagian Pendalaman (Bawah)
-
-### Sarawak
-SarawakNorthern - Limbang, Lawas, Sundar, Trusan
-SarawakNorthwest - Miri, Niah, Bekenu, Sibuti, Marudi
-SarawakCentralNorth - Pandan, Belaga, Suai, Tatau, Sebauh, Bintulu
-SarawakCentral - Sibu, Mukah, Dalat, Song, Igan, Oya, Balingian, Kanowit, Kapit
-SarawakCentralCoast - Sarikei, Matu, Julau, Rajang, Daro, Bintangor, Belawai
-SarawakSouthwestInland - Lubok Antu, Sri Aman, Roban, Debak, Kabong, Lingga, Engkelili, Betong, Spaoh, Pusa, Saratok
-SarawakSouthwest - Serian, Simunjan, Samarahan, Sebuyau, Meludam
-SarawakSouthern - Kuching, Bau, Lundu, Sematan
-SarawakSpecialZone - Zon Khas (Kampung Patarikan)
-
-### Terengganu
-TerengganuCentral - Kuala Terengganu, Marang, Kuala Nerus
-TerengganuNorthCoast - Besut, Setiu
-TerengganuInland - Hulu Terengganu
-TerengganuSouthCoast - Dungun, Kemaman -->
 
 
 ## License
