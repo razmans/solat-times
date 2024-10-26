@@ -116,7 +116,6 @@ Fetches Solat times for the entire year.
 ## Location Codes
 
 Use `LocationCode` to access supported location codes in Malaysia. Example use: `LocationCode.SelangorCentral`. The full list of the codes are:
-Here’s the table with your requested information in markdown format:
 
 ### Selangor
 | Code                 | Area covered                           |
