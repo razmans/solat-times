@@ -6,9 +6,31 @@ A JavaScript library to fetch Malaysian Solat (prayer) times for specific zones 
 
 Install via npm:
 
+NPM
 ```bash
-npm install malaysian-solat-times
+npx jsr add @razmans/jakim-solat-times
 ```
+
+Deno
+```bash
+deno add jsr:@razmans/jakim-solat-times
+```
+
+Yarn
+```bash
+yarn dlx jsr add @razmans/jakim-solat-times
+```
+
+PNPM
+```bash
+pnpm dlx jsr add @razmans/jakim-solat-times
+```
+
+Bun
+```bash
+bunx jsr add @razmans/jakim-solat-times
+```
+
 
 ## Usage
 
@@ -33,6 +55,19 @@ const date = new Date();
 getMalaysianSolatTimesBasedOnDate(code, date)
   .then(data => console.log('Today\'s Solat Times:', data))
   .catch(error => console.error(error));
+
+getMalaysianSolatTimesBasedOnWeek(code,date)
+  .then(data => console.log('This week\'s Solat Times:', data))
+  .catch(error => console.error(error));
+
+getMalaysianSolatTimesBasedOnMonth(code,1,2025)
+  .then(data => console.log('This week\'s Solat Times:', data))
+  .catch(error => console.error(error));
+
+getMalaysianSolatTimesBasedOnYear(code,2025)
+  .then(data => console.log('This week\'s Solat Times:', data))
+  .catch(error => console.error(error));
+
 ```
 
 ## API Functions

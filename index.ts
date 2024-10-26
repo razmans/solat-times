@@ -1,3 +1,11 @@
+/**
+ * @module getMalaysianSolatTimesBasedOnDate
+ * @param code
+ * @param date
+ * @returns @interface SolatData
+ * @example getMalaysianSolatTimesBasedOnDate(LocationCode.SelangorCentral, new Date())
+ */
+
 export const getMalaysianSolatTimesBasedOnDate = async (
   code: string,
   date: Date
@@ -15,6 +23,13 @@ export const getMalaysianSolatTimesBasedOnDate = async (
   return { prayerTime: (await response.json()).prayerTime };
 };
 
+/**
+ * @module getMalaysianSolateTimesBasedOnWeek
+ * @param code
+ * @param date
+ * @returns @interface SolatData
+ * @example getMalaysianSolateTimesBasedOnWeek(LocationCode.SelangorCentral, new Date())
+ */
 export const getMalaysianSolateTimesBasedOnWeek = async (
   code: string,
   date: Date
@@ -39,6 +54,14 @@ export const getMalaysianSolateTimesBasedOnWeek = async (
   return { prayerTime: (await response.json()).prayerTime };
 };
 
+/**
+ * @module getMalaysianSolatTimesBasedOnMonth
+ * @param code
+ * @param month
+ * @param year
+ * @returns @interface SolatData
+ * @example getMalaysianSolatTimesBasedOnMonth(LocationCode.SelangorCentral, 1, 2025)
+ */
 export const getMalaysianSolatTimesBasedOnMonth = async (
   code: string,
   month: number,
@@ -65,6 +88,13 @@ export const getMalaysianSolatTimesBasedOnMonth = async (
   return { prayerTime: (await response.json()).prayerTime };
 };
 
+/**
+ * @module getMalaysianSolatTimesBasedOnYear
+ * @param code
+ * @param year
+ * @returns @interface SolatData
+ * @example getMalaysianSolatTimesBasedOnYear(LocationCode.SelangorCentral, 2025)
+ */
 export const getMalaysianSolatTimesBasedOnYear = async (
   code: string,
   year: number
@@ -84,6 +114,10 @@ export const getMalaysianSolatTimesBasedOnYear = async (
   return { prayerTime: (await response.json()).prayerTime };
 };
 
+/**
+ * @module Enum for Location Code
+ * @enum LocationCode
+ */
 export enum LocationCode {
   //SELANGOR
   SelangorCentral = 'SGR01',
@@ -172,7 +206,11 @@ export enum LocationCode {
   TerengganuSouthCoast = 'TGR04'
 }
 
-interface SolatData {
+/**
+ * @module interface for SolatData
+ * @interface SolatData
+ */
+export interface SolatData {
   prayerTime: PrayerTimes[];
 }
 
