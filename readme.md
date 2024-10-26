@@ -83,7 +83,6 @@ Fetches Solat times for the entire year.
 Use `LocationCode` to access supported location codes in Malaysia. Example use: `LocationCode.SelangorCentral`. The full list of the codes are:
 Here’s the table with your requested information in markdown format:
 
-```markdown
 | Region Name                  | Code                           |
 |------------------------------|--------------------------------|
 | SelangorCentral              | Gombak, Petaling, Sepang, Hulu Langat, Hulu Selangor, S.Alam |
@@ -144,7 +143,7 @@ Here’s the table with your requested information in markdown format:
 | TerengganuNorthCoast         | Besut, Setiu                 |
 | TerengganuInland             | Hulu Terengganu              |
 | TerengganuSouthCoast         | Dungun, Kemaman             |
-```
+
 <!-- ### Selangor
 SelangorCentral - Gombak, Petaling, Sepang, Hulu Langat, Hulu Selangor, S.Alam
 SelangorNorthWest - Kuala Selangor, Sabak Bernam
