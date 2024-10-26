@@ -46,7 +46,7 @@ import {
   getMalaysianSolatTimesBasedOnMonth,
   getMalaysianSolatTimesBasedOnYear,
   LocationCode
-} from 'malaysian-solat-times';
+} from '@razmans/jakim-solat-times';
 
 // Example: Fetch Solat times for Selangor Central for today.
 const code = LocationCode.SelangorCentral;
