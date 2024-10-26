@@ -1,13 +1,10 @@
 export const getMalaysianSolatTimesBasedOnDate = async (code, date) => {
     const formData = new FormData();
-    formData.append('datestart', date.toISOString().split('T')[0]);
-    formData.append('dateend', date.toISOString().split('T')[0]);
-    const response = await fetch(`https://www.e-solat.gov.my/index.php?r=esolatApi/takwimsolat&period=duration&zone=${code}`, {
-        method: 'POST',
-        body: formData
-    });
-    const data = await response.json();
-    return data;
+    const formattedDate = date.toISOString().split('T')[0];
+    formData.append('datestart', formattedDate);
+    formData.append('dateend', formattedDate);
+    const response = await fetch(`https://www.e-solat.gov.my/index.php?r=esolatApi/takwimsolat&period=duration&zone=${code}`, { method: 'POST', body: formData });
+    return { prayerTime: (await response.json()).prayerTime };
 };
 export const getMalaysianSolateTimesBasedOnWeek = async (code, date) => {
     const formData = new FormData();
@@ -20,8 +17,7 @@ export const getMalaysianSolateTimesBasedOnWeek = async (code, date) => {
         method: 'POST',
         body: formData
     });
-    const data = await response.json();
-    return data;
+    return { prayerTime: (await response.json()).prayerTime };
 };
 export const getMalaysianSolatTimesBasedOnMonth = async (code, month, year) => {
     const formData = new FormData();
@@ -33,8 +29,7 @@ export const getMalaysianSolatTimesBasedOnMonth = async (code, month, year) => {
         method: 'POST',
         body: formData
     });
-    const data = await response.json();
-    return data;
+    return { prayerTime: (await response.json()).prayerTime };
 };
 export const getMalaysianSolatTimesBasedOnYear = async (code, year) => {
     const formData = new FormData();
@@ -44,10 +39,8 @@ export const getMalaysianSolatTimesBasedOnYear = async (code, year) => {
         method: 'POST',
         body: formData
     });
-    const data = await response.json();
-    return data;
+    return { prayerTime: (await response.json()).prayerTime };
 };
-export const calculateTodaySolatTimesBasedOnLocation = (latitude, longitude, date) => { };
 export var LocationCode;
 (function (LocationCode) {
     //SELANGOR
@@ -56,7 +49,7 @@ export var LocationCode;
     LocationCode["SelangorSouthWest"] = "SGR03";
     //WILAYAH PERSEKUTUAN
     LocationCode["WPKualaLumpur"] = "WLY01";
-    LocationCode["WPPutrajaya"] = "WLY02";
+    LocationCode["WPLabuan"] = "WLY02";
     //JOHOR
     LocationCode["JohorIslandZone"] = "JHR01";
     LocationCode["JohorEastCoast"] = "JHR02";
@@ -68,9 +61,11 @@ export var LocationCode;
     LocationCode["KedahNortheast"] = "KDH03";
     LocationCode["KedahSoutheast"] = "KDH04";
     LocationCode["KedahSouthernBorder"] = "KDH05";
+    LocationCode["KedahIslandZone"] = "KDH06";
+    LocationCode["KedahMountainPeak"] = "KDH07";
     //KELANTAN
     LocationCode["KelantanCentralNorth"] = "KTN01";
-    LocationCode["KelantanSouthernHighlands"] = "KTN02";
+    LocationCode["KelantanSouthernHighlands"] = "KTN03";
     //MELAKA
     LocationCode["Melaka"] = "MLK01";
     //NEGERI SEMBILAN
