@@ -114,6 +114,10 @@ Here’s the table with your requested information in markdown format:
 | KedahSouthernBorder          | Bandar Baharu, Kulim          |
 | KedahIslandZone              | Langkawi                      |
 | KedahMountainPeak            | Puncak Gunung Jerai           |
+
+### Kelantan
+| Code                 | Area covered                           |
+|------------------------------|--------------------------------|
 | KelantanCentralNorth         | Bachok, Kota Bharu, Machang, Pasir Mas, Pasir Puteh, Tanah Merah, Tumpat, Kuala Krai, Mukim Chiku |
 | KelantanSouthernHighlands    | Gua Musang (Daerah Galas Dan Bertam), Jeli |
 

@@ -108,7 +108,7 @@ export enum LocationCode {
 
   //WILAYAH PERSEKUTUAN
   WPKualaLumpur = 'WLY01',
-  WPPutrajaya = 'WLY02',
+  WPLabuan = 'WLY02',
 
   //JOHOR
   JohorIslandZone = 'JHR01',
@@ -127,7 +127,7 @@ export enum LocationCode {
 
   //KELANTAN
   KelantanCentralNorth = 'KTN01',
-  KelantanSouthernHighlands = 'KTN02',
+  KelantanSouthernHighlands = 'KTN03',
 
   //MELAKA
   Melaka = 'MLK01',
